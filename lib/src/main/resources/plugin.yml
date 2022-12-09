@@ -1,0 +1,11 @@
+name: Improved_Tools
+main: improvedTools.ImprovedTools
+version: 1.0.0
+api-version: 1.19
+author: Waechter_von_Atlantis
+commands:
+  getTool:
+    description: Gives the tools of the mod
+    usage: Use autocomplete for this command
+    permission: op
+    

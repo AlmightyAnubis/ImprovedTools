@@ -1,0 +1,3870 @@
+{
+  "level": [
+    {
+      "level": 1,
+      "challenges": [
+        {
+          "basename": "Cactifarmer",
+          "displayItem": {
+            "type": "SAND",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SAND",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SAND",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 15
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "CACTUS",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 150
+        },
+        {
+          "basename": "Graveluser",
+          "displayItem": {
+            "type": "GRAVEL",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "GRAVEL",
+                  "amount": 8
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SOUL_SAND",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "GRAVEL",
+                  "amount": 16
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "COBBLESTONE",
+                "amount": 48
+              },
+              {
+                "type": "GUNPOWDER",
+                "amount": 16
+              }
+            ]
+          },
+          "repeats": 15
+        },
+        {
+          "basename": "Mossy friends",
+          "displayItem": {
+            "type": "MOSSY_STONE_BRICKS",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MOSSY_COBBLESTONE",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MOSSY_STONE_BRICKS",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MOSSY_COBBLESTONE",
+                  "amount": 16
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MOSSY_STONE_BRICKS",
+                  "amount": 16
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "OAK_LEAVES",
+                "amount": 64
+              },
+              {
+                "type": "COBBLESTONE",
+                "amount": 32
+              },
+              {
+                "type": "STONE_BRICKS",
+                "amount": 32
+              }
+            ]
+          },
+          "repeats": 10
+        },
+        {
+          "basename": "Forest friend",
+          "displayItem": {
+            "type": "APPLE",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "OAK_SAPLING",
+                  "amount": 20
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 5
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "command",
+              "content": {
+                "reward": "from_c gettool axe #p 100 100",
+                "rewardText": "Treefeller Axe"
+              }
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "OAK_SAPLING",
+                  "amount": 9
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "WHITE_WOOL",
+                  "amount": 8
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIORITE",
+                  "amount": 20
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "OAK_LEAVES",
+                  "amount": 8
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "RED_SAND",
+                  "amount": 10
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 15
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "APPLE",
+                "amount": 6
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Loamy sight",
+          "displayItem": {
+            "type": "CLAY",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CLAY",
+                  "amount": 5
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CLAY",
+                  "amount": 20
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "SUGAR_CANE",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 45
+        },
+        {
+          "basename": "Melon lover",
+          "displayItem": {
+            "type": "MELON_SLICE",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SAND",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SAND",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 15
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "MELON_SLICE",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 30
+        },
+        {
+          "basename": "Pumpkinfarmer",
+          "displayItem": {
+            "type": "PUMPKIN",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "RED_SAND",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "RED_SAND",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 20
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "PUMPKIN",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 15
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "challenges": [
+        {
+          "basename": "Lumberjack",
+          "displayItem": {
+            "type": "OAK_LOG",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "REDSTONE",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_ORE",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NETHER_WART",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "REDSTONE",
+                  "amount": 16
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_ORE",
+                  "amount": 5
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "WOLF_SPAWN_EGG",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 20
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "OAK_LOG",
+                "amount": 16
+              },
+              {
+                "type": "SPRUCE_LOG",
+                "amount": 16
+              },
+              {
+                "type": "BIRCH_LOG",
+                "amount": 16
+              },
+              {
+                "type": "JUNGLE_LOG",
+                "amount": 16
+              },
+              {
+                "type": "ACACIA_LOG",
+                "amount": 16
+              },
+              {
+                "type": "DARK_OAK_LOG",
+                "amount": 16
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Greetings from hell",
+          "displayItem": {
+            "type": "NETHERRACK",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MAGMA_BLOCK",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NETHERRACK",
+                  "amount": 18
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 3
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NETHERRACK",
+                  "amount": 32
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 45
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "NETHER_WART",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 30
+        },
+        {
+          "basename": "Fun in the mud",
+          "displayItem": {
+            "type": "FARMLAND",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FARMLAND",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FARMLAND",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 140
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "DIAMOND",
+                "amount": 3
+              },
+              {
+                "type": "IRON_INGOT",
+                "amount": 2
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Gardening",
+          "displayItem": {
+            "type": "PEONY",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PEONY",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "ROSE_BUSH",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "LILAC",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SUNFLOWER",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BROWN_MUSHROOM",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "RED_MUSHROOM",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 3
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PEONY",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "ROSE_BUSH",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "LILAC",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SUNFLOWER",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BROWN_MUSHROOM",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "RED_MUSHROOM",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 60
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "WHEAT_SEEDS",
+                "amount": 64
+              },
+              {
+                "type": "PUMPKIN_SEEDS",
+                "amount": 64
+              },
+              {
+                "type": "MELON_SEEDS",
+                "amount": 64
+              },
+              {
+                "type": "BEETROOT_SEEDS",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Mushroom grower",
+          "displayItem": {
+            "type": "MYCELIUM",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MYCELIUM",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 3
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MYCELIUM",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 40
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "RED_MUSHROOM",
+                "amount": 64
+              },
+              {
+                "type": "BROWN_MUSHROOM",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Jungle Child",
+          "displayItem": {
+            "type": "JUNGLE_SAPLING",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COCOA_BEANS",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 3
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COCOA_BEANS",
+                  "amount": 5
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 20
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "JUNGLE_LOG",
+                "amount": 32
+              },
+              {
+                "type": "VINE",
+                "amount": 10
+              },
+              {
+                "type": "GRASS",
+                "amount": 5
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Crumbly matter",
+          "displayItem": {
+            "type": "COOKIE",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "JUNGLE_LOG",
+                  "amount": 32
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BUCKET",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 3
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "JUNGLE_LOG",
+                  "amount": 64
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BUCKET",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 25
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "COOKIE",
+                "amount": 128
+              },
+              {
+                "type": "MILK_BUCKET",
+                "amount": 1
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Bakery",
+          "displayItem": {
+            "type": "PUMPKIN_PIE",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_ORE",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 2
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "GOLD_ORE",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_ORE",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "PUMPKIN_PIE",
+                "amount": 12
+              },
+              {
+                "type": "CAKE",
+                "amount": 2
+              },
+              {
+                "type": "BREAD",
+                "amount": 16
+              },
+              {
+                "type": "COOKIE",
+                "amount": 32
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Under Pressure",
+          "displayItem": {
+            "type": "PISTON",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 3
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "PISTON",
+                "amount": 2
+              },
+              {
+                "type": "COAL",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 5
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "challenges": [
+        {
+          "basename": "Aerial mine expert",
+          "displayItem": {
+            "type": "COBBLESTONE",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_ORE",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 1
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_ORE",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 20
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "COBBLESTONE",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 15
+        },
+        {
+          "basename": "Smelly business",
+          "displayItem": {
+            "type": "COD",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SEA_PICKLE",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "KELP",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SEA_PICKLE",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "KELP",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 100
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "COD",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 15
+        },
+        {
+          "basename": "Fish paradise",
+          "displayItem": {
+            "type": "BRAIN_CORAL_BLOCK",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "TUBE_CORAL_BLOCK",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BRAIN_CORAL_BLOCK",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BUBBLE_CORAL_BLOCK",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FIRE_CORAL_BLOCK",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "HORN_CORAL_BLOCK",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 5
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "TUBE_CORAL_BLOCK",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BRAIN_CORAL_BLOCK",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BUBBLE_CORAL_BLOCK",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FIRE_CORAL_BLOCK",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "HORN_CORAL_BLOCK",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 75
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "TUBE_CORAL",
+                "amount": 9
+              },
+              {
+                "type": "BRAIN_CORAL",
+                "amount": 9
+              },
+              {
+                "type": "BUBBLE_CORAL",
+                "amount": 9
+              },
+              {
+                "type": "FIRE_CORAL",
+                "amount": 9
+              },
+              {
+                "type": "HORN_CORAL",
+                "amount": 9
+              }
+            ]
+          },
+          "repeats": 20
+        },
+        {
+          "basename": "Eye expert",
+          "displayItem": {
+            "type": "ENDER_PEARL",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SHULKER_SHELL",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SHULKER_SHELL",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 75
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "ENDER_PEARL",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Experience collector",
+          "displayItem": {
+            "type": "EXPERIENCE_BOTTLE",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "EXPERIENCE_BOTTLE",
+                  "amount": 8
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 5
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "EXPERIENCE_BOTTLE",
+                  "amount": 16
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 35
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "EMERALD",
+                "amount": 12
+              }
+            ]
+          },
+          "repeats": 15
+        },
+        {
+          "basename": "Hot things",
+          "displayItem": {
+            "type": "LAVA_BUCKET",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "LAVA_BUCKET",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "LAVA_BUCKET",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND",
+                  "amount": 1,
+                  "meta": {
+                    "displayName": "{\"color\":\"gold\",\"text\":\"Creative Core\"}",
+                    "enchantments": [
+                      {
+                        "name": "power",
+                        "level": 1
+                      }
+                    ],
+                    "itemflags": [
+                      "HIDE_ENCHANTS"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 250
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "DIAMOND",
+                "amount": 10
+              }
+            ]
+          },
+          "repeats": 2
+        },
+        {
+          "basename": "Disarmament through rotting",
+          "displayItem": {
+            "type": "BONE_BLOCK",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BONE_BLOCK",
+                  "amount": 16
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BONE_BLOCK",
+                  "amount": 32
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "ARROW",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Back to the roots",
+          "displayItem": {
+            "type": "BAMBOO",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BAMBOO",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 2
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BAMBOO",
+                  "amount": 16
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "STICK",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Bowman... or Crossbowman?",
+          "displayItem": {
+            "type": "CROSSBOW",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "GOLD_INGOT",
+                  "amount": 12
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 6
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "GOLD_INGOT",
+                  "amount": 32
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "CROSSBOW",
+                "amount": 2
+              },
+              {
+                "type": "ARROW",
+                "amount": 128
+              },
+              {
+                "type": "BOW",
+                "amount": 2
+              }
+            ]
+          },
+          "repeats": 5
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "challenges": [
+        {
+          "basename": "Bright prospects",
+          "displayItem": {
+            "type": "BLAZE_ROD",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BLAZE_ROD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 20
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BLAZE_ROD",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 120
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "GOLD_INGOT",
+                "amount": 512
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Glass? DIRT!",
+          "displayItem": {
+            "type": "FARMLAND",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FARMLAND",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 25
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FARMLAND",
+                  "amount": 8
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 150
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "GLASS",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Seaweed smokehouse",
+          "displayItem": {
+            "type": "INK_SAC",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "INK_SAC",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 5
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "INK_SAC",
+                  "amount": 5
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 30
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "DRIED_KELP",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Brewery master",
+          "displayItem": {
+            "type": "CHORUS_FLOWER",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CHORUS_FLOWER",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "END_STONE",
+                  "amount": 9
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CHORUS_FLOWER",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "END_STONE",
+                  "amount": 32
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 75
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "POTION",
+                "amount": 3,
+                "meta": {
+                  "potionData": {
+                    "type": "AWKWARD",
+                    "extended": false,
+                    "upgraded": false
+                  }
+                }
+              },
+              {
+                "type": "ENDER_PEARL",
+                "amount": 80
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Tears of terror",
+          "displayItem": {
+            "type": "GHAST_TEAR",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "GHAST_TEAR",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BUCKET",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "GHAST_TEAR",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "BUCKET",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 75
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "GOLDEN_SWORD",
+                "amount": 4
+              },
+              {
+                "type": "ARROW",
+                "amount": 64
+              },
+              {
+                "type": "BOW",
+                "amount": 1
+              },
+              {
+                "type": "WATER_BUCKET",
+                "amount": 1
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Deep-sea adventure",
+          "displayItem": {
+            "type": "PRISMARINE_CRYSTALS",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PRISMARINE_SHARD",
+                  "amount": 96
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PRISMARINE_CRYSTALS",
+                  "amount": 32
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 25
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PRISMARINE_SHARD",
+                  "amount": 160
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PRISMARINE_CRYSTALS",
+                  "amount": 64
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "SAND",
+                "amount": 32
+              },
+              {
+                "type": "OAK_BOAT",
+                "amount": 2
+              }
+            ]
+          },
+          "repeats": 10
+        },
+        {
+          "basename": "Brrr, can someone turn on the heater?",
+          "displayItem": {
+            "type": "ICE",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COAL",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "WHITE_WOOL",
+                  "amount": 2
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 5
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COAL",
+                  "amount": 8
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "WHITE_WOOL",
+                  "amount": 4
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "ICE",
+                "amount": 64
+              },
+              {
+                "type": "SNOW_BLOCK",
+                "amount": 64
+              }
+            ]
+          },
+          "repeats": 10
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "challenges": [
+        {
+          "basename": "Secret experiments",
+          "displayItem": {
+            "type": "ZOMBIE_HEAD",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "ZOMBIE_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "ZOMBIE_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND_ORE",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 150
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "ROTTEN_FLESH",
+                "amount": 1728
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Glued, looks like real!",
+          "displayItem": {
+            "type": "SKELETON_SKULL",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SKELETON_SKULL",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SKELETON_SKULL",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND_ORE",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 150
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "BONE",
+                "amount": 1728
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Zzzsssss...",
+          "displayItem": {
+            "type": "CREEPER_HEAD",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CREEPER_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CREEPER_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND_ORE",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 150
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "GUNPOWDER",
+                "amount": 1728
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Heady",
+          "displayItem": {
+            "type": "PLAYER_HEAD",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PLAYER_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 50
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PLAYER_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND_ORE",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 150
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "LEATHER",
+                "amount": 576
+              },
+              {
+                "type": "BONE",
+                "amount": 576
+              },
+              {
+                "type": "ROTTEN_FLESH",
+                "amount": 576
+              },
+              {
+                "type": "GUNPOWDER",
+                "amount": 576
+              }
+            ]
+          },
+          "repeats": 5
+        },
+        {
+          "basename": "Stuffed dragons",
+          "displayItem": {
+            "type": "DRAGON_HEAD",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DRAGON_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 500
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DRAGON_HEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 2500
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "ZOMBIE_HEAD",
+                "amount": 7
+              },
+              {
+                "type": "SKELETON_SKULL",
+                "amount": 5
+              },
+              {
+                "type": "CREEPER_HEAD",
+                "amount": 5
+              },
+              {
+                "type": "PLAYER_HEAD",
+                "amount": 2
+              }
+            ]
+          },
+          "repeats": 1
+        },
+        {
+          "basename": "Self-woven",
+          "displayItem": {
+            "type": "COBWEB",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COBWEB",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 5
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COBWEB",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 25
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "STRING",
+                "amount": 96
+              }
+            ]
+          },
+          "repeats": 10
+        },
+        {
+          "basename": "Fermented eyes",
+          "displayItem": {
+            "type": "ROTTEN_FLESH",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SPIDER_EYE",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 2
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SPIDER_EYE",
+                  "amount": 3
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 10
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "ROTTEN_FLESH",
+                "amount": 128
+              }
+            ]
+          },
+          "repeats": 25
+        },
+        {
+          "basename": "The Ultimate Item",
+          "displayItem": {
+            "type": "DIAMOND",
+            "amount": 1
+          },
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND",
+                  "amount": 1,
+                  "meta": {
+                    "displayName": "{\"color\":\"gold\",\"text\":\"Creative Core\"}",
+                    "enchantments": [
+                      {
+                        "name": "power",
+                        "level": 1
+                      }
+                    ],
+                    "itemflags": [
+                      "HIDE_ENCHANTS"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 250
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DIAMOND",
+                  "amount": 1,
+                  "meta": {
+                    "displayName": "{\"color\":\"gold\",\"text\":\"Creative Core\"}",
+                    "enchantments": [
+                      {
+                        "name": "power",
+                        "level": 1
+                      }
+                    ],
+                    "itemflags": [
+                      "HIDE_ENCHANTS"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "xp",
+              "content": {
+                "rewardXP": 500
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "SHULKER_SHELL",
+                "amount": 2
+              },
+              {
+                "type": "DIAMOND",
+                "amount": 20
+              },
+              {
+                "type": "EXPERIENCE_BOTTLE",
+                "amount": 20
+              }
+            ]
+          },
+          "repeats": 10
+        }
+      ]
+    }
+  ],
+  "maxLevel": 0,
+  "toollevel": [
+    {
+      "level": 1,
+      "challenges": [
+        {
+          "basename": "Leaveblower",
+          "displayItem": {
+            "type": "OAK_LEAVES",
+            "amount": 1
+          },
+          "repeats": 15,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_HOE",
+                  "amount": 1,
+                  "meta": {
+                    "displayName": "{\"color\":\"green\",\"text\":\"LaubblÃ¤ser\"}",
+                    "enchantments": [
+                      {
+                        "name": "fortune",
+                        "level": 3
+                      },
+                      {
+                        "name": "unbreaking",
+                        "level": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "IRON_HOE",
+                  "amount": 1,
+                  "meta": {
+                    "displayName": "{\"color\":\"green\",\"text\":\"LaubblÃ¤ser\"}",
+                    "enchantments": [
+                      {
+                        "name": "fortune",
+                        "level": 3
+                      },
+                      {
+                        "name": "unbreaking",
+                        "level": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "IRON_INGOT",
+                "amount": 1
+              },
+              {
+                "type": "REDSTONE",
+                "amount": 10
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "challenges": [
+        {
+          "basename": "cluck cluck",
+          "displayItem": {
+            "type": "EGG",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CHICKEN_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "CHICKEN_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "COARSE_DIRT",
+                "amount": 10
+              },
+              {
+                "type": "WHEAT_SEEDS",
+                "amount": 128
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Tree Decimation",
+          "displayItem": {
+            "type": "OAK_SAPLING",
+            "amount": 1
+          },
+          "repeats": 1,
+          "rewards": [
+            {
+              "type": "command",
+              "content": {
+                "reward": "from_c gettool axe #p 100 20",
+                "rewardText": "Treefeller Axe"
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "command",
+              "content": {
+                "reward": "from_c gettool axe #p 100 60",
+                "rewardText": "Treefeller Axe"
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "IRON_INGOT",
+                "amount": 5
+              },
+              {
+                "type": "OAK_SAPLING",
+                "amount": 128
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "challenges": [
+        {
+          "basename": "Coral reef",
+          "displayItem": {
+            "type": "BRAIN_CORAL_BLOCK",
+            "amount": 1
+          },
+          "repeats": 20,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NAUTILUS_SHELL",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NAUTILUS_SHELL",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "TUBE_CORAL_FAN",
+                "amount": 9
+              },
+              {
+                "type": "BRAIN_CORAL_FAN",
+                "amount": 9
+              },
+              {
+                "type": "BUBBLE_CORAL_FAN",
+                "amount": 9
+              },
+              {
+                "type": "FIRE_CORAL_FAN",
+                "amount": 9
+              },
+              {
+                "type": "HORN_CORAL_FAN",
+                "amount": 9
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Floating waters",
+          "displayItem": {
+            "type": "HEART_OF_THE_SEA",
+            "amount": 1
+          },
+          "repeats": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SPONGE",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "HEART_OF_THE_SEA",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SPONGE",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "HEART_OF_THE_SEA",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "TUBE_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "BRAIN_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "BUBBLE_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "FIRE_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "HORN_CORAL_BLOCK",
+                "amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Oink Oink!",
+          "displayItem": {
+            "type": "PORKCHOP",
+            "amount": 1
+          },
+          "repeats": 2,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PIG_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PIG_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "GRASS_BLOCK",
+                "amount": 5
+              },
+              {
+                "type": "CARROT",
+                "amount": 128
+              },
+              {
+                "type": "EGG",
+                "amount": 32
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "challenges": [
+        {
+          "basename": "Saddled",
+          "displayItem": {
+            "type": "SADDLE",
+            "amount": 1
+          },
+          "repeats": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "HORSE_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "LEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SADDLE",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "HORSE_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "LEAD",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SADDLE",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "HAY_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "APPLE",
+                "amount": 32
+              },
+              {
+                "type": "CARROT",
+                "amount": 128
+              }
+            ]
+          }
+        },
+        {
+          "basename": "NameTaged",
+          "displayItem": {
+            "type": "NAME_TAG",
+            "amount": 1
+          },
+          "repeats": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NAME_TAG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NAME_TAG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "IRON_INGOT",
+                "amount": 4
+              },
+              {
+                "type": "STRING",
+                "amount": 2
+              },
+              {
+                "type": "WRITABLE_BOOK",
+                "amount": 1
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Master of transport",
+          "displayItem": {
+            "type": "ELYTRA",
+            "amount": 1
+          },
+          "repeats": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "ELYTRA",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "ELYTRA",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "RAIL",
+                "amount": 1728
+              },
+              {
+                "type": "POWERED_RAIL",
+                "amount": 192
+              },
+              {
+                "type": "DETECTOR_RAIL",
+                "amount": 64
+              },
+              {
+                "type": "ACTIVATOR_RAIL",
+                "amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "basename": "A spongy adventure",
+          "displayItem": {
+            "type": "SPONGE",
+            "amount": 1
+          },
+          "repeats": 5,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SPONGE",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SPONGE",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "WATER_BUCKET",
+                "amount": 1
+              },
+              {
+                "type": "WHITE_WOOL",
+                "amount": 320
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Baa Baa!",
+          "displayItem": {
+            "type": "MUTTON",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SHEEP_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "SHEEP_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "GRASS_BLOCK",
+                "amount": 10
+              },
+              {
+                "type": "WHITE_WOOL",
+                "amount": 128
+              },
+              {
+                "type": "PORKCHOP",
+                "amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "basename": "One with the land animals",
+          "displayItem": {
+            "type": "TURTLE_EGG",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "OCELOT_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FOX_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "AXOLOTL_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "OCELOT_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "FOX_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "AXOLOTL_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "OAK_LEAVES",
+                "amount": 64
+              },
+              {
+                "type": "JUNGLE_LEAVES",
+                "amount": 64
+              },
+              {
+                "type": "SPRUCE_LEAVES",
+                "amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "basename": "DJ",
+          "displayItem": {
+            "type": "MUSIC_DISC_PIGSTEP",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MUSIC_DISC_PIGSTEP",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "MUSIC_DISC_PIGSTEP",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "MUSIC_DISC_13",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_CAT",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_BLOCKS",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_CHIRP",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_FAR",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_MALL",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_MELLOHI",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_STAL",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_STRAD",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_WARD",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_11",
+                "amount": 1
+              },
+              {
+                "type": "MUSIC_DISC_WAIT",
+                "amount": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "challenges": [
+        {
+          "basename": "One with the sea animals",
+          "displayItem": {
+            "type": "TURTLE_EGG",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DOLPHIN_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "TURTLE_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "DOLPHIN_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "TURTLE_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "TUBE_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "BRAIN_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "BUBBLE_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "FIRE_CORAL_BLOCK",
+                "amount": 64
+              },
+              {
+                "type": "HORN_CORAL_BLOCK",
+                "amount": 64
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Master of Villagers",
+          "displayItem": {
+            "type": "VILLAGER_SPAWN_EGG",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "VILLAGER_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NAME_TAG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "VILLAGER_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "NAME_TAG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "IRON_BLOCK",
+                "amount": 32
+              },
+              {
+                "type": "EMERALD_BLOCK",
+                "amount": 16
+              },
+              {
+                "type": "DIAMOND_BLOCK",
+                "amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Master of Villagers",
+          "displayItem": {
+            "type": "VILLAGER_SPAWN_EGG",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "VILLAGER_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "VILLAGER_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "IRON_BLOCK",
+                "amount": 32
+              },
+              {
+                "type": "EMERALD_BLOCK",
+                "amount": 16
+              },
+              {
+                "type": "DIAMOND_BLOCK",
+                "amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Evil Powers",
+          "displayItem": {
+            "type": "PILLAGER_SPAWN_EGG",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PILLAGER_SPAWN_EGG",
+                  "amount": 10
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "PILLAGER_SPAWN_EGG",
+                  "amount": 10
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "VILLAGER_SPAWN_EGG",
+                "amount": 2
+              },
+              {
+                "type": "POTION",
+                "amount": 2,
+                "meta": {
+                  "potionData": {
+                    "type": "POISON",
+                    "extended": false,
+                    "upgraded": true
+                  }
+                }
+              },
+              {
+                "type": "GOLD_BLOCK",
+                "amount": 8
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Moo Moo!",
+          "displayItem": {
+            "type": "BEEF",
+            "amount": 1
+          },
+          "repeats": 10,
+          "rewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COW_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "item",
+              "content": [
+                {
+                  "type": "COW_SPAWN_EGG",
+                  "amount": 1
+                }
+              ]
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "GRASS_BLOCK",
+                "amount": 10
+              },
+              {
+                "type": "WATER_BUCKET",
+                "amount": 2
+              },
+              {
+                "type": "WHEAT",
+                "amount": 128
+              },
+              {
+                "type": "MUTTON",
+                "amount": 128
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Hammer Time",
+          "displayItem": {
+            "type": "ANVIL",
+            "amount": 1
+          },
+          "repeats": 1,
+          "rewards": [
+            {
+              "type": "command",
+              "content": {
+                "reward": "from_c gettool hammer #p 1 500",
+                "rewardText": "Hammer (3x3)"
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "command",
+              "content": {
+                "reward": "from_c gettool hammer #p 1 1000",
+                "rewardText": "Hammer (3x3)"
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "DIAMOND",
+                "amount": 15
+              },
+              {
+                "type": "REDSTONE",
+                "amount": 128
+              }
+            ]
+          }
+        },
+        {
+          "basename": "Form the earth",
+          "displayItem": {
+            "type": "ANVIL",
+            "amount": 1
+          },
+          "repeats": 1,
+          "rewards": [
+            {
+              "type": "command",
+              "content": {
+                "reward": "from_c gettool excavator #p 1 500",
+                "rewardText": "Excavator (3x3)"
+              }
+            }
+          ],
+          "firstRewards": [
+            {
+              "type": "command",
+              "content": {
+                "reward": "from_c gettool excavator #p 1 1000",
+                "rewardText": "Excavator (3x3)"
+              }
+            }
+          ],
+          "requirement": {
+            "type": "sacrifice_item",
+            "content": [
+              {
+                "type": "DIAMOND",
+                "amount": 10
+              },
+              {
+                "type": "DIRT",
+                "amount": 20
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

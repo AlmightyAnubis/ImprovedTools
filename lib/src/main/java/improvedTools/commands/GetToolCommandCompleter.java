@@ -15,18 +15,30 @@ public class GetToolCommandCompleter implements TabCompleter {
 		ArrayList<String> suggestions = new ArrayList<>();
 		if (args.length == 1) {
 			suggestions.add("hammer");
+			suggestions.add("axe");
+			suggestions.add("excavator");
+			suggestions.add("hoe");
+			suggestions.add("wand");
+			suggestions.add("leafblower");
+			suggestions.removeIf((text) -> !text.startsWith(args[0]));
 		}
 		if (args.length == 2) {
 			Bukkit.getOnlinePlayers().forEach((player) -> suggestions.add(player.getName()));
 		}
 		if (args.length > 2) {
-			for (int i = 1; i < 10; i++) {
+			if (args[0].equals("axe") || args[0].equals("leafblower")) {
+				for (int i = 1; i < 10; i++) {
+					suggestions.add(String.valueOf(i*50));
+				}
+			}else {
+				for (int i = 1; i < 10; i++) {
 				suggestions.add(String.valueOf(i));
 			}
-		}
-		
-		
-		
+			}
+			
+			
+			
+		}	
 		return suggestions;		
 	}
 

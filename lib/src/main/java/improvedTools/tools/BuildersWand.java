@@ -1,10 +1,14 @@
 package improvedTools.tools;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
-import org.bukkit.enchantments.Enchantment;
+import org.bukkit.attribute.Attribute;
+import org.bukkit.attribute.AttributeModifier;
+import org.bukkit.attribute.AttributeModifier.Operation;
+import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.persistence.PersistentDataType;
@@ -15,14 +19,14 @@ import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.TextDecoration;
 
-public class Hammer {
+public class BuildersWand {
 
-	public static NamespacedKey key = new NamespacedKey(ImprovedTools.plugin, "hammerRange");
+	public static NamespacedKey key = new NamespacedKey(ImprovedTools.plugin, "wandRange");
 
-	public static ItemStack getItem() { return getItem(Material.DIAMOND_PICKAXE, 1, 100); }
+	public static ItemStack getItem() { return getItem(Material.DIAMOND_SWORD, 1, 100); }
 
 	public static ItemStack getItem(int range) {
-		return getItem(Material.DIAMOND_PICKAXE, range, 100);
+		return getItem(Material.STICK, range, 100);
 	}
 
 	public static ItemStack getItem(Material material, int range) {
@@ -37,16 +41,18 @@ public class Hammer {
 		ItemStack hammer = new ItemStack(material);
 		Damageable meta = (Damageable) hammer.getItemMeta();
 		meta.setDamage(hammer.getType().getMaxDurability() - toolHealth);
-		meta.addEnchant(Enchantment.DIG_SPEED, 5, true);
-		//meta.addEnchant(Enchantment.DURABILITY, 3, true);
-		meta.addEnchant(Enchantment.LOOT_BONUS_BLOCKS, 3, true);
+		meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, new AttributeModifier(UUID.randomUUID(),"no damage", -1, Operation.MULTIPLY_SCALAR_1,EquipmentSlot.HAND));
+		
 		meta.getPersistentDataContainer().set(key, PersistentDataType.INTEGER, range);
-		meta.displayName(Component.text("\u2692 Hammer \u2692").color(NamedTextColor.GRAY).decoration(TextDecoration.ITALIC, false));
+		meta.displayName(Component.text("Builders Wand").color(NamedTextColor.GOLD).decoration(TextDecoration.ITALIC, false));
 		ArrayList<Component> lore = new ArrayList<>();
-		lore.add(Component.text("Breaks blocks in ").color(NamedTextColor.WHITE));
+		lore.add(Component.text("Place blocks in ").color(NamedTextColor.WHITE));
 		lore.add(Component.text((range*2+1) + "x" + (range*2+1)).color(NamedTextColor.GREEN));
 		lore.add(Component.text("area").color(NamedTextColor.WHITE));
-		meta.lore(lore);		
+		lore.add(Component.empty());
+		lore.add(Component.text("Put block in offhand").color(NamedTextColor.WHITE));
+		lore.add(Component.text("to build").color(NamedTextColor.WHITE));
+		meta.lore(lore);
 		hammer.setItemMeta(meta);
 		NonRepairable.makeUnrepaireble(hammer);
 		return hammer;

@@ -25,6 +25,7 @@ import org.jetbrains.annotations.NotNull;
 
 import improvedTools.ImprovedTools;
 import improvedTools.tools.Treefeller;
+import improvedTools.utils.BlockBreaking;
 
 public class TreeBreak implements Listener {
 
@@ -65,7 +66,7 @@ public class TreeBreak implements Listener {
 		copyTool.editMeta((copyToolMeta) -> copyToolMeta.getPersistentDataContainer().remove(Treefeller.key));
 
 		boolean isTree = false;
-		HashSet<Block> treeBlocks = new HashSet<>();
+		LinkedList<Block> treeBlocks = new LinkedList<>();
 		treeBlocks.add(eventBlock);
 
 		long milli = System.currentTimeMillis();
@@ -140,12 +141,14 @@ public class TreeBreak implements Listener {
 		treeBlocks.remove(eventBlock);
 		if (isTree) {
 			ArrayList<ItemStack> dropedItems = new ArrayList<>();
+			int blockCounter = 0;
 			for (Block block : treeBlocks) {
 				BlockBreakEvent breakChecker = new BlockBreakEvent(block, player);
 				if (breakChecker.callEvent()) {
 					Collection<ItemStack> drops = block.getDrops(copyTool, player);
 					dropedItems.addAll(drops);
-					block.setType(Material.AIR);
+					BlockBreaking.breakBlock(block, blockCounter<20? 3:0 );
+					blockCounter++;
 				}
 			}
 			HashMap<ItemStack, Integer> itemMap = new HashMap<>();

@@ -37,6 +37,9 @@ public class AdvancedFarming implements Listener {
 
 	@EventHandler
 	public void callectThePlants(PlayerInteractEvent event) {
+		if (event.getAction() != Action.RIGHT_CLICK_BLOCK && event.getAction() != Action.LEFT_CLICK_BLOCK) {
+			return;
+		}
 		if (event.useInteractedBlock() == Result.DENY || event.useItemInHand() == Result.DENY) {
 			return;
 		}

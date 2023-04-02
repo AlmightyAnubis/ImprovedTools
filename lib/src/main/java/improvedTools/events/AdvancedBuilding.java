@@ -21,6 +21,7 @@ import org.bukkit.block.data.type.Door;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event.Result;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockPlaceEvent;
@@ -42,7 +43,7 @@ public class AdvancedBuilding implements Listener {
 
 	private static NamespacedKey isPlacing = new NamespacedKey(ImprovedTools.plugin, "isPlacing");
 
-	@EventHandler
+	@EventHandler(priority = EventPriority.LOWEST)
 	public void hoeTheLand(PlayerInteractEvent event) {
 		if (event.useInteractedBlock() == Result.DENY || event.useItemInHand() == Result.DENY) {
 			return;
@@ -104,9 +105,10 @@ public class AdvancedBuilding implements Listener {
 			return;
 		}
 
-		if (offHandItem.hasItemMeta()) {
+		if (offHandItem.hasItemMeta() && !player.isSneaking()) {
 			event.setCancelled(true);
-			player.sendActionBar(Component.text("Can't place blocks with meta data.").color(NamedTextColor.RED));
+			player.sendActionBar(
+					Component.text("Sneak to place blocks with meta data. They may get lost.").color(NamedTextColor.RED));
 			return;
 		}
 		if (offHandItem.getType().createBlockData() instanceof Door) {

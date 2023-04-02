@@ -3,6 +3,7 @@ package improvedTools.events;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map.Entry;
 
 import org.bukkit.Bukkit;
@@ -24,6 +25,7 @@ import org.bukkit.persistence.PersistentDataType;
 
 import improvedTools.ImprovedTools;
 import improvedTools.tools.Hammer;
+import improvedTools.utils.BlockBreaking;
 
 public class HammerBreak implements Listener {
 
@@ -68,7 +70,7 @@ public class HammerBreak implements Listener {
 		int lowerBox = Math.max(-1, -yMult);
 		int higherBox = yMult + (yMult + lowerBox);
 
-		ArrayList<Block> blocksForBreaking = new ArrayList<>();
+		LinkedList<Block> blocksForBreaking = new LinkedList<>();
 		for (int dx = -xMult; dx <= xMult; dx++) {
 			for (int dy = lowerBox; dy <= higherBox; dy++) {
 				for (int dz = -zMult; dz <= zMult; dz++) {
@@ -100,12 +102,14 @@ public class HammerBreak implements Listener {
 
 		blocksForBreaking.remove(event.getBlock());
 		ArrayList<ItemStack> dropedItems = new ArrayList<>();
+		int blockCounter = 0;
 		for (Block block : blocksForBreaking) {
 			BlockBreakEvent breakChecker = new BlockBreakEvent(block, player);
 			if (breakChecker.callEvent()) {
 				Collection<ItemStack> drops = block.getDrops(copyTool, player);
-				dropedItems.addAll(drops);
-				block.setType(Material.AIR);
+				dropedItems.addAll(drops);				
+				BlockBreaking.breakBlock(block, blockCounter<20? 3:0 );
+				blockCounter++;
 			}
 		}
 		HashMap<ItemStack, Integer> itemMap = new HashMap<>();

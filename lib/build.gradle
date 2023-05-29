@@ -59,6 +59,8 @@ dependencies {
     // compileOnly files("lib/paper.jar")
     implementation files("lib/paper-bundler-1.19-R0.1-SNAPSHOT-reobf.jar")
     
+    compileOnly files("lib/AnubisBaseLibrary_extended-0.1.0.jar")
+    
     
     
     //compileOnly 'io.papermc.paperweight:paper:1.18.1-R0.1-SNAPSHOT'
